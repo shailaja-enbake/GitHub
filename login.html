@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Canvab</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="login.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="login.js"></script>
+     <title>Canvab</title>
 
-
-
-
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="login.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="login.js"></script>
 
 </head>
+
+
 <body class="body" >
-   <div class="container">
-     <a href="Signup.html" >
-         <span class="glyphicon glyphicon-home gly"> </span></a>
+     <div class="container"><a href="Signup.html" ><span class="glyphicon glyphicon-home gly"> </span></a>     
+         
 
-   <div class="container">
-    <center><h1 class="h1">Canvab</h1></center>
-    <div class="col-sm-4"></div> 
+          <div class="container">
+             <center><h1 class="h1">Canvab</h1></center>
 
-    <div class="col-sm-4 div2">
+               <div class="col-sm-4"></div> 
 
-     <FORM class="f1" novalidate method="post" form action="final.html" >  <br/><br/>
+               <div class="col-sm-4 div2">
 
-            <input style="border: none; border-bottom-style: outset; border-bottom-color: blue" type="email" class="form-control _email" placeholder="Email" required="">
-            <center><span class="_emailError hide" style="color: red">Please enter valid email id!</span></center><br/>
+                <form class="f1" novalidate method="post" form action="final.html" >  <br/><br/>
+
+                 <input id="email" type="email" class="form-control _email" placeholder="Email" required="">
+                 <center><span class="_emailError hide" id="error">Invalid email id !</span></center><br/>
 
 
-            <input style="border: none; border-bottom-style: outset; border-bottom-color: blue" type="password" class="form-control _password" placeholder="Password" required="">
-            <center><span class="_passError hide" style="color: red">Please enter valid password!</span></center><br/>
+                 <input id="email" type="password" class="form-control _password" placeholder="Password" required="">
+                 <center><span class="_passError hide" id="error">Invalid password !</span></center><br/>
 
-            <label class="custom-control custom-checkbox mohit">
-              <input type="checkbox" class="custom-control-input">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description notbold">Check this custom checkbox</span>
+                  <label class="custom-control custom-checkbox mohit">
+                  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description notbold">Check this custom checkbox</span>
+                  </label><br>
 
-            </label><br>
+                    <div class="col-lg-12 mt-5 mb-4">
 
-         <div class="col-lg-12 mt-5 mb-4">
-         <center><button type="submit" class="btn btn-custom w-100 btn-block btn-lg si _login" ">SIGN IN </button></center><br/><br/>
-         </div>
-     </FORM>
-    </div>
-  </div>
-</div><br/>
-          <center><a href="#" class="text-white text-center text-capitalize font-weight-bold for">Forgot Your password ?</a></center><br/>
-          <center><p><small class="text-white mr-2 don">Don't have an account ?</small> <a href="Signup.html" class="text-white text-capitalize font-weight-bold don">create an account</a></p></center>
+                    <center><button type="submit" class="btn btn-custom w-100 btn-block btn-lg si _login" ">SIGN IN </button></center><br/><br/>
+                    </div>
+
+                 </form>
+              </div>
+           </div>
+        </div><br/>
+
+
+         <center><a href="#" class="text-white text-center text-capitalize font-weight-bold for">Forgot Your password ?</a></center><br/>
+
+         <center><p><small class="text-white mr-2 don">Don't have an account ?</small> <a href="#" class="text-white text-capitalize font-weight-bold don">create an account</a></p></center>
+
+
        <div class="col-sm-4"></div>
-     </div>
-​
+     </div>​
  </body>
 </html>

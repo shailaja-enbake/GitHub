@@ -20,6 +20,15 @@
 {
 	background-color: white;border-radius: 3%
 }
+#email
+{
+	border: none; border-bottom-style: outset; border-bottom-color:blue;
+}
+#error
+{
+	color: red;
+}
+
 .si
 {
 	background:mediumseagreen
