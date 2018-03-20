@@ -1,0 +1,65 @@
+.body
+{
+      
+		background:mediumpurple
+}
+.gly
+{
+	font-size:300%;color:white;margin-top: 3%
+}
+.h1
+{
+	background:mediumpurple; color: white;
+}
+.div2
+{
+	margin-top: 5%;
+	background-color: white;border-radius: 3%
+}
+.f1
+{
+	background-color: white;border-radius: 3%
+}
+.si
+{
+	background:mediumseagreen
+}
+.for
+{
+	color:white
+}
+.don
+{
+	color:white
+}
+.di
+{
+	background-color:black
+}
+
+.navi2
+{
+	background-color: black;
+}
+.home
+{
+	color: white
+}
+.notbold
+{ color: grey;
+	font-weight: normal;
+}
+.mohit
+{
+	
+	margin-bottom: 10%;	
+}
+.enbake
+{
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 0px;
+    outline: none !important;
+    box-shadow: none !important;
+}
