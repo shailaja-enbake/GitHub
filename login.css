@@ -1,76 +1,76 @@
-    .body
-         {      
-		   background:mediumpurple
-         }
- 
-    .gly
-        {
-	     font-size:300%;color:white;margin-top: 3%
-        }
+	    .body
+	    {      
+	    	background:mediumpurple
+	    }
+	    
+	    .gly
+	    {
+	    	font-size:300%;color:white;margin-top: 3%
+	    }
 
-    .h1
-        {
-	     background:mediumpurple; color: white;
-        }
+	    .h1
+	    {
+	    	background:mediumpurple; color: white;
+	    }
 
-    .div2
-         {
-	       margin-top: 5%;
-	       background-color: white;border-radius: 3%
-         }
+	    .div2
+	    {
+	    	margin-top: 5%;
+	    	background-color: white;border-radius: 3%
+	    }
 
-    .f1
-       {
-	     background-color: white;border-radius: 3%
-       }
+	    .f1
+	    {
+	    	background-color: white;border-radius: 3%
+	    }
 
-    #email
-         {
-	      border: none; border-bottom-style: outset; border-bottom-color:blue;
-         }
+	    #email
+	    {
+	    	border: none; border-bottom-style: outset; border-bottom-color:blue;
+	    }
 
-    #error
-         {
-	      color: red;
-         }
+	    #error
+	    {
+	    	color: red;
+	    }
 
-    .si
-        {
-	      background:mediumseagreen
-        }
+	    .si
+	    {
+	    	background:mediumseagreen
+	    }
 
-    .for
-       {
-	     color:white
-       }
+	    .for
+	    {
+	    	color:white
+	    }
 
-    .don
-       {
-	    color:white
-       }
+	    .don
+	    {
+	    	color:white
+	    }
 
-    .di
-       {
-	     background-color:black
-       }
+	    .di
+	    {
+	    	background-color:black
+	    }
 
-    .navi2
-         {
-	       background-color: black;
-         }
+	    .navi2
+	    {
+	    	background-color: black;
+	    }
 
-    .home
-         {
-	       color: white
-         }
+	    .home
+	    {
+	    	color: white
+	    }
 
-    .notbold
-           { 
-           	 color: grey;
-	         font-weight: normal;
-            }
+	    .notbold
+	    { 
+	    	color: grey;
+	    	font-weight: normal;
+	    }
 
-    .check_box
-              {
-	            margin-bottom: 10%;	
-               }
+	    .check_box
+	    {
+	    	margin-bottom: 10%;	
+	    }
