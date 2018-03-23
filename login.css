@@ -28,10 +28,14 @@
 	    {
 	    	border: none; border-bottom-style: outset; border-bottom-color:blue;
 	    }
-
-	    #error
+	     #password
+	    {
+	    	border: none; border-bottom-style: outset; border-bottom-color:blue;
+	    }
+	    .error
 	    {
 	    	color: red;
+	    	font-weight: normal;
 	    }
 
 	    .si
@@ -74,3 +78,4 @@
 	    {
 	    	margin-bottom: 10%;	
 	    }
+	    
